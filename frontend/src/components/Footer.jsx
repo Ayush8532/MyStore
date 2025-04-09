@@ -1,11 +1,12 @@
 import React from 'react'
+import icon from '../assets/MY.png'
 
 const Footer = () => {
   return (
     <div>
         <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
             <div>
-                <img src="" alt="assest logo" className='mb-5 w-32 ' />
+                <img src={icon} alt="assest logo" className='mb-5 w-32 ' />
                 <p className='w-full md:w2/3 text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil veritatis quos, autem labore, dolorem pariatur blanditiis quo eum unde magnam sit quidem ad aliquam temporibus delectus molestias sapiente vitae recusandae!</p>
             </div>
             <div>
